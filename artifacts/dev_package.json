@@ -368,7 +368,18 @@
 			"description": "Central entry point for the Adaptive CRM applications. "
 		}
 	],
-	"launchpad_layout": [],
+	"launchpad_layout": [
+		{
+			"id": "49129d6f-5fcb-4f69-9748-d84fc34febd4",
+			"NAME": "neptune-adaptivecrm-dark-launchpad-layout",
+			"DESCR": null
+		},
+		{
+			"id": "2c83bbf1-cc51-414a-916d-2dd74a9f2c6b",
+			"NAME": "neptune-adaptivecrm-light-launchpad-layout",
+			"DESCR": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
