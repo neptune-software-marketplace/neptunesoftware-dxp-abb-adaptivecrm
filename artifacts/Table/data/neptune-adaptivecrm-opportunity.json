@@ -41,13 +41,13 @@
 	{
 		"id": "b857ad92-1ed1-4815-ab86-b16ab22ec9db",
 		"createdAt": "1637598461225",
-		"updatedAt": "1738940013317",
+		"updatedAt": "1747385384216",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "1128",
 		"name": "Enterprise License",
 		"description": "In need of a lot more apps for warehouse.\n",
-		"value": 30000,
+		"value": 3000,
 		"currency": "EUR",
 		"status": "2"
 	},

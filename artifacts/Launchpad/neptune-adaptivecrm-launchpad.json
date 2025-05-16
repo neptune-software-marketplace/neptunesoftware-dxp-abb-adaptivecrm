@@ -69,6 +69,7 @@
 	"passwordResetEmail": null,
 	"activationCodeEmail": null,
 	"noSubmenuHover": false,
+	"defaultLanguage": null,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"cat": [
 		{

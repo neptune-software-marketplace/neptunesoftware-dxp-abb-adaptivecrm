@@ -66,6 +66,18 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "name",
 				"label": "Name",
 				"type": "text",
@@ -74,12 +86,6 @@
 			{
 				"name": "phone",
 				"label": "Phone",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "email",
-				"label": "eMail",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -96,20 +102,14 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
+				"name": "email",
+				"label": "eMail",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -118,9 +118,9 @@
 			{
 				"text": "Account",
 				"type": "SingleSelectLookup",
-				"lookupTable": "crmaccount",
-				"lookupFieldKey": "accountid",
-				"lookupFieldText": "name",
+				"lookupTable": "neptune-adaptivecrm-account",
+				"lookupFieldKey": "",
+				"lookupFieldText": "",
 				"lookupShowOnlyText": true,
 				"columnLabel": "Details",
 				"editable": false,
@@ -226,7 +226,7 @@
 				"fieldCatalog": {}
 			}
 		},
-		"table": "crmcontacts"
+		"table": "neptune-adaptivecrm-contacts"
 	},
 	"name": "neptune_adaptivecrm_contact_edit_child",
 	"description": "Adaptive application for maintaining the contact details.",
@@ -236,7 +236,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "25.02.07.1202",
+	"ver": "25.05.16.0938",
 	"disabled": false,
 	"appType": "A",
 	"application": "neptunedxp_adaptive_edit",

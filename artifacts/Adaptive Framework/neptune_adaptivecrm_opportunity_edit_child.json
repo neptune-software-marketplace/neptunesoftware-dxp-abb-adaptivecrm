@@ -66,8 +66,20 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "name",
-				"label": "Name",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -78,14 +90,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "value",
-				"label": "Value",
-				"type": "decimal",
-				"usage": "BOTH"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
+				"name": "name",
+				"label": "Name",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -102,21 +108,15 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
+				"name": "value",
+				"label": "Value",
+				"type": "decimal",
 				"usage": "BOTH"
 			}
 		],
@@ -124,15 +124,15 @@
 			{
 				"text": "Account",
 				"type": "SingleSelectLookup",
-				"lookupTable": "crmaccount",
-				"lookupFieldKey": "accountid",
+				"lookupTable": "neptune-adaptivecrm-account",
+				"lookupFieldKey": "",
 				"columnLabel": "Details",
 				"editable": true,
 				"required": true,
 				"visible": false,
 				"name": "accountid",
 				"fieldPos": 1,
-				"lookupFieldText": "name",
+				"lookupFieldText": "",
 				"lookupShowOnlyText": true
 			},
 			{
@@ -154,9 +154,9 @@
 			{
 				"text": "Currency",
 				"type": "SingleSelectLookup",
-				"lookupTable": "crmcurrency",
-				"lookupFieldKey": "currency",
-				"lookupFieldText": "text",
+				"lookupTable": "neptune-adaptivecrm-currency",
+				"lookupFieldKey": "",
+				"lookupFieldText": "",
 				"editable": true,
 				"required": true,
 				"visible": true,
@@ -171,9 +171,9 @@
 				"name": "status",
 				"fieldPos": 5,
 				"type": "SingleSelectLookup",
-				"lookupTable": "crmopportunitystatus",
-				"lookupFieldKey": "status",
-				"lookupFieldText": "text",
+				"lookupTable": "neptune-adaptivecrm-opportunitystatus",
+				"lookupFieldKey": "",
+				"lookupFieldText": "",
 				"lookupShowOnlyText": true
 			},
 			{
@@ -249,7 +249,7 @@
 				"fieldCatalog": {}
 			}
 		},
-		"table": "crmopportunity"
+		"table": "neptune-adaptivecrm-opportunity"
 	},
 	"name": "neptune_adaptivecrm_opportunity_edit_child",
 	"description": "Adaptive application for managing the sales opportunities.",
@@ -259,7 +259,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "25.02.07.1257",
+	"ver": "25.05.14.1014",
 	"disabled": false,
 	"appType": "A",
 	"application": "neptunedxp_adaptive_edit",

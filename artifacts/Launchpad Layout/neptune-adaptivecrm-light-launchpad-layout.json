@@ -67,6 +67,7 @@
 	"SPLASH_DESIGN": null,
 	"HEADER_WIDTH": "Full",
 	"SHELL_WIDTH": "XLarge",
+	"LOGIN_WIDTH": null,
 	"SHELL_WIDTH_APP": false,
 	"MAIN_MENU_BACK": null,
 	"MAIN_MENU_TEXT": null,

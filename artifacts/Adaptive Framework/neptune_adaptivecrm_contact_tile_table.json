@@ -80,6 +80,18 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "name",
 				"label": "Name",
 				"type": "text",
@@ -88,12 +100,6 @@
 			{
 				"name": "phone",
 				"label": "Phone",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "email",
-				"label": "eMail",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -110,20 +116,14 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
+				"name": "email",
+				"label": "eMail",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -170,7 +170,7 @@
 					"destinationType": "F",
 					"openAs": "S",
 					"butType": "Accept",
-					"destinationTargetF": "47FEF3F6-B838-4959-B021-6D1FF1F3264D",
+					"destinationTargetF": "6ed49cbd-27ec-4e6e-aba0-1893b66b8134",
 					"keyField": [
 						{
 							"fieldName": "accountid",
@@ -181,7 +181,10 @@
 					"dialogTitleField": "accountid",
 					"dialogSubTitle": "Account",
 					"dialogIcon": "",
-					"dialogHeight": "900px"
+					"dialogHeight": "900px",
+					"fieldType": "Navigation",
+					"displayResponse": false,
+					"dialogHeader": true
 				},
 				"valueType": "Lookup",
 				"valueLookup": {
@@ -258,7 +261,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "25.02.07.1437",
+	"ver": "25.05.16.0931",
 	"disabled": false,
 	"appType": "A",
 	"application": "neptunedxp_adaptive_tile_table",
